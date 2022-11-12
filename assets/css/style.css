@@ -12,6 +12,7 @@ body {
     font-family: 'Open Sans', sans-serif;
     background-color: #ecf0f1;
     height: 100vh;
+    overflow: hidden;
 }
 
 /* CONTEÚDO */
@@ -199,13 +200,13 @@ body {
     position: absolute;
     height: 100vh;
     top: 0;
-    right: -100%;
+    transform: translateX(100%);
     width: 100%;
     transition: .5s;
 }
 
 .conteudo__criarConta.mover {
-    right: 0;
+    transform: translateX(0);
 }
 
 .conteudo__criarConta h2 {
