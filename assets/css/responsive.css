@@ -1,0 +1,10 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 488px) {
+
+    .conteudo__formulario {
+        width: 23rem;
+        text-align: center;
+    }
+
+}
