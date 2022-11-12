@@ -192,21 +192,21 @@ body {
 /* ÁREA CRIAR CONTA */
 .conteudo__criarConta {
     background-color: white;
+    height: 100vh;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     padding: 1.5rem;
     position: absolute;
-    height: 100vh;
-    top: 0;
-    transform: translateX(100%);
-    width: 100%;
     transition: .5s;
+    width: 100%;
+    top: 0;
+    left: -100%;
 }
 
 .conteudo__criarConta.mover {
-    transform: translateX(0);
+    left: 0;
 }
 
 .conteudo__criarConta h2 {
