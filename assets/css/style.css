@@ -12,6 +12,7 @@ body {
     font-family: 'Open Sans', sans-serif;
     background-color: #ecf0f1;
     height: 100vh;
+    overflow-x: hidden;
 }
 
 /* CONTEÚDO */
@@ -31,6 +32,14 @@ body {
     align-items: center;
     justify-content: center;
     padding: 1.5rem;
+    position: absolute;
+    transition: .5s;
+    top: 0;
+    left: 0;
+}
+
+.conteudo__login.mover {
+    left: -100%;
 }
 
 .conteudo__login h2 {
@@ -181,12 +190,43 @@ body {
 
 /* ÁREA CRIAR CONTA */
 .conteudo__criarConta {
-    display: none;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1.5rem;
+    position: absolute;
+    height: 100vh;
+    top: 0;
+    right: -100%;
+    width: 100%;
+    transition: .5s;
 }
 
-.conteudo__criarConta h2 {}
+.conteudo__criarConta.mover {
+    right: 0;
+}
 
-.conteudo__criarConta p {}
+.conteudo__criarConta h2 {
+    color: #58af9b;
+    font-size: 1.61em;
+    margin-bottom: 1rem;
+}
+
+.conteudo__criarConta p {
+    color: #7f8c8d;
+    margin-bottom: 1.2rem;
+}
+
+/* CLASSE ATIVADA COM JAVASCRIPT */
+/* #login.mover {
+    right: 0;
+}
+
+#register.mover {
+    right: 0;
+}  */
 
 .conteudo__formularioCriarConta {}
 
