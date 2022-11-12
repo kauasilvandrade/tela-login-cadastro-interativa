@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- FONT AWASOME -->
+    <script src="https://kit.fontawesome.com/ff8333465c.js" crossorigin="anonymous"></script>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <title>Tela de login interativa</title>
+</head>
+<body>
+    
+    <!-- CONTAINER -->
+    <div class="container">
+
+        <!-- CONTEÚDO -->
+        <main class="conteudo">
+
+            <!-- LOGIN E LEGENDA LOGIN -->
+            <div class="conteudo__login-legendaLogin">
+
+                <!-- BOX LOGIN -->
+                <div class="conteudo__Login">
+
+                    <h2>Sign In To Developer</h2>
+
+                    <!-- ÍCONES DE REDES SOCIÁIS -->
+                    <div class="conteudo__iconesRedesSociais">
+
+                        <span class="iconesRedesSociais__icone">
+
+                            <i class="fa-brands fa-facebook-f"></i>
+
+                        </span>
+
+                        <span class="iconesRedesSociais__icone">
+
+                            <i class="fa-brands fa-google-plus-g"></i>
+
+                        </span>
+                        
+                        <span class="iconesRedesSociais__icone">
+
+                            <i class="fa-brands fa-linkedin-in"></i>
+
+                        </span>
+
+                    </div>
+
+                    <p>or use your email account: </p>
+
+                    <!-- FORMULÁRIO DE LOGIN -->
+                    <form action="#" method="get" class="conteudo__formularioLogin" autocomplete="on">
+
+                        <!-- EMAIL -->
+                        <div class="conteudo__caixaInput">
+
+                            <label for="email">
+                                <i class="far fa-envelope icon-modify"></i>
+                            </label>
+
+                            <input type="email" name="email" id="email" minlength="5" maxlength="30" placeholder="Type your e-mail" autocomplete="email" required>
+
+                        </div>
+
+                        <!-- SENHA -->
+                        <div class="conteudo__caixaInput">
+
+                            <label for="senha">
+                                <i class="fas fa-lock icon-modify"></i>
+                            </label>
+
+                            <input type="password" name="senha" id="senha" minlength="8" maxlength="15" placeholder="Type your password" autocomplete="current-password" required>
+
+                        </div>
+
+                        <a href="#">Forgot your password?</a>
+
+                        <p>Don't have an account? <a href="#">Register</a></p>
+
+                        <div class="conteudo__boxBotao">
+
+                            <button type="submit" id="btnEntrar" class="conteudo__btnEntrar">Sing In</button>
+
+                        </div>
+                        
+                    </form>
+                    
+                </div>
+
+                <!-- BOX LEGENDA LOGIN -->
+                <div class="conteudo__LegendaLogin">
+
+                    <h2>Welcome Back!</h2>
+
+                    <p>To keep connected with us<br>please login with your personal info</p>
+
+                    <div class="conteudo__boxBotao">
+
+                        <button type="submit" id="btnEntrar" class="conteudo__btnEntrar">Sing In</button>
+
+                    </div>
+
+                </div>
+
+            </div>
+            
+            <!-- LEGENDA CRIAR CONTA E CRIAR CONTA -->
+            <div class="conteudo__criarConta-legendaLogin">
+    
+                <!-- BOX CRIAR CONTA -->
+                <div class="conteudo__LegendaCriarConta">
+                    
+                    <h2>Hello, Friend!</h2>
+                    
+                    <p>Enter your personal details<br>and start journey with us</p>
+                    
+                    <div class="conteudo__boxBotao">
+        
+                        <button type="submit" id="btnCriar" class="conteudo__btnCriar">Sing In</button>
+        
+                    </div>
+                        
+                </div>
+
+                <div class="conteudo__criarConta">
+
+                    <h2>Create Account</h2>
+
+                    <!-- ÍCONES DE REDES SOCIÁIS -->
+                    <div class="conteudo__iconesRedesSociais">
+
+                        <span class="iconesRedesSociais__icone">
+
+                            <i class="fa-brands fa-facebook-f"></i>
+
+                        </span>
+
+                        <span class="iconesRedesSociais__icone">
+
+                            <i class="fa-brands fa-google-plus-g"></i>
+
+                        </span>
+                        
+                        <span class="iconesRedesSociais__icone">
+
+                            <i class="fa-brands fa-linkedin-in"></i>
+
+                        </span>
+
+                    </div>
+
+                    <p>or use your email for registration: </p>
+
+                    <!-- FORMULÁRIO DE CRIAR CONTA -->
+                    <form action="#" method="get" class="conteudo__formularioCriarConta" autocomplete="on">
+
+                        <!-- NOME -->
+                        <div class="conteudo__caixaInput">
+
+                            <label for="name">
+                                <i class="far fa-user icon-modify"></i>
+                            </label>
+
+                            <input type="text" name="name" id="name" minlength="5" maxlength="30" placeholder="Create your user username" autocomplete="username" required>
+
+                        </div>
+
+                        <!-- EMAIL -->
+                        <div class="conteudo__caixaInput">
+
+                            <label for="email">
+                                <i class="far fa-envelope icon-modify"></i>
+                            </label>
+
+                            <input type="email" name="email" id="email" minlength="5" maxlength="30" placeholder="Create your e-mail" autocomplete="email" required>
+
+                        </div>
+
+                        <!-- SENHA -->
+                        <div class="conteudo__caixaInput">
+
+                            <label for="senha">
+                                <i class="fas fa-lock icon-modify"></i>
+                            </label>
+
+                            <input type="password" name="senha" id="senha" minlength="8" maxlength="15" placeholder="Create your password" autocomplete="new-password" required>
+
+                        </div>
+
+                        <p>already have an account? <a href="#">Login</a></p>
+
+                        <div class="conteudo__boxBotao">
+
+                            <button type="submit" id="btnEntrar" class="conteudo__btnEntrar">Sing In</button>
+
+                        </div>
+                        
+                    </form>
+                    
+
+                </div>
+
+            </div>
+
+        </main>
+
+    </div>
+
+    <script defer src="assets/js/script.js"></script>
+
+</body>
+</html>
