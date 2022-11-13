@@ -45,6 +45,7 @@
     /* FORMULÁRIO */
     .conteudo__formulario p {
         margin-bottom: 0;
+        display: none;
     }
 
     /* LEGENDA DE CRIAR CONTA */
