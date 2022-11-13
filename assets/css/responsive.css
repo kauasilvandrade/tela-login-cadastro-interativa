@@ -2,6 +2,7 @@
 
 @media screen and (min-width: 488px) {
 
+    /* FORMULÁRIOS */
     .conteudo__formulario {
         width: 23rem;
         text-align: center;
@@ -11,29 +12,35 @@
 
 @media screen and (min-width: 768px) {
     
+    /* CONTEÚDO */
     .conteudo {
         display: flex;
         align-items: center;
         justify-content: center;
+        flex-direction: column;
     }
 
+    /* BOX LOGIN E A LEGENDA DE CRIAR CONTA */
     .conteudo__login-legendaCriarConta {
         position: relative;
         width: 950px;
     }
 
+    /* LOGIN */
     .conteudo__login {
-        background-color: white;
         height: 500px;
         width: 60%;
         border-radius: 10px 0px 0px 10px;
         top: 5rem;
+        display: flex;
     }
 
+    /* FORMULÁRIO */
     .conteudo__formulario p {
         margin-bottom: 0;
     }
 
+    /* LEGENDA DE CRIAR CONTA */
     .conteudo__LegendaCriarConta {
         border-radius: 0px 10px 10px 0px;
         background-color: #58af9b;
@@ -75,6 +82,72 @@
     .conteudo__btnCriar:hover {
         background-color: white;
         color: #58af9b;
+    }
+
+    /* LEGENDA DO LOGIN E BOX CRIAR CONTA */
+    .conteudo__legendaLogin-criarConta {
+        position: relative;
+        width: 950px;
+    }
+
+    /* LEGENDA DO LOGIN */
+    .conteudo__LegendaLogin {
+        border-radius: 10px 0px 0px 10px;
+        background-color: #58af9b;
+        display: none;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        position: absolute;
+        top: 5rem;
+        width: 40%;
+        height: 500px;
+        left: 0;
+    }
+
+    .conteudo__LegendaLogin h2 {
+        color: white;
+        font-size: 1.61em;
+        margin-bottom: 1rem;
+    }
+
+    .conteudo__LegendaLogin p {
+        color: white;
+        margin-bottom: 1.2rem;
+    }
+
+    .conteudo__btnEntrar {
+        width: 250px;
+    }
+
+    .conteudo__btnLegenda {
+        background-color: #58af9b;
+        border: 1px solid white;
+        width: 250px;
+        padding: 0.8rem;
+        font-size: 1.1em;
+        color: white;
+        font-weight: 600;
+        letter-spacing: 1px;
+        border-radius: 20px;
+        transition: .5s;
+        transform: scale(1);
+    }
+
+    .conteudo__btnLegenda:hover {
+        background-color: white;
+        color: #58af9b;
+        transform: scale(1.1);
+    }
+
+    /* BOX CRIAR CONTA */
+    .conteudo__criarConta {
+        height: 500px;
+        width: 60%;
+        border-radius: 0px 10px 10px 0px;
+        top: 5rem;
+        /* left: ; */
+        /* right: 0; */
     }
 
 }
