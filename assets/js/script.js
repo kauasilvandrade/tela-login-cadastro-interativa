@@ -14,3 +14,7 @@ function moverLoginCriarConta() {
 MoverCriarConta.addEventListener('click', moverLoginCriarConta);
 
 MoverLogin.addEventListener('click', moverLoginCriarConta);
+
+function mover() {
+    
+}

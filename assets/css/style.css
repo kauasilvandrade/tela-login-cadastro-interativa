@@ -21,7 +21,7 @@ body {
 .conteudo {}
 
 /* ÁREA DE LOGIN E LEGENDA LOGIN */
-.conteudo__login-legendaLogin {}
+.conteudo__login-legendaCriarConta{}
 
 /* ÁREA LOGIN */
 .conteudo__login {
@@ -168,18 +168,6 @@ body {
     background-color: #3a7265;
 }
 
-/* LEGENDA LOGIN */
-.conteudo__LegendaLogin {
-    display: none;
-}
-
-.conteudo__LegendaLogin h2 {}
-
-.conteudo__LegendaLogin p {}
-
-/* LEGENDA CRIAR CONTA E ÁREA DE CRIAR CONTA */
-.conteudo__criarConta-legendaLogin {}
-
 /* LEGENDA CRIAR CONTA */
 .conteudo__LegendaCriarConta {
     display: none;
@@ -188,6 +176,18 @@ body {
 .conteudo__LegendaCriarConta h2 {}
 
 .conteudo__LegendaCriarConta p {}
+
+/* LEGENDA CRIAR CONTA E ÁREA DE CRIAR CONTA */
+.conteudo__legendaLogin-criarConta {}
+
+/* LEGENDA LOGIN */
+.conteudo__LegendaLogin {
+    display: none;
+}
+
+.conteudo__LegendaLogin h2 {}
+
+.conteudo__LegendaLogin p {}
 
 /* ÁREA CRIAR CONTA */
 .conteudo__criarConta {

@@ -8,3 +8,73 @@
     }
 
 }
+
+@media screen and (min-width: 768px) {
+    
+    .conteudo {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .conteudo__login-legendaCriarConta {
+        position: relative;
+        width: 950px;
+    }
+
+    .conteudo__login {
+        background-color: white;
+        height: 500px;
+        width: 60%;
+        border-radius: 10px 0px 0px 10px;
+        top: 5rem;
+    }
+
+    .conteudo__formulario p {
+        margin-bottom: 0;
+    }
+
+    .conteudo__LegendaCriarConta {
+        border-radius: 0px 10px 10px 0px;
+        background-color: #58af9b;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        position: absolute;
+        top: 5rem;
+        width: 40%;
+        height: 500px;
+        right: 0;
+    }
+
+    .conteudo__LegendaCriarConta h2 {
+        color: white;
+        font-size: 1.61em;
+        margin-bottom: 1rem;
+    }
+
+    .conteudo__LegendaCriarConta p {
+        color: white;
+        margin-bottom: 1.2rem;
+    }
+
+    .conteudo__btnCriar {
+        background-color: #58af9b;
+        border: 1px solid white;
+        width: 250px;
+        padding: 0.8rem;
+        font-size: 1.1em;
+        color: white;
+        font-weight: 600;
+        letter-spacing: 1px;
+        border-radius: 20px;
+        transition: .5s;
+    }
+
+    .conteudo__btnCriar:hover {
+        background-color: white;
+        color: #58af9b;
+    }
+
+}
