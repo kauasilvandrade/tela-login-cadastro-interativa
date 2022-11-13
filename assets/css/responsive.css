@@ -33,6 +33,13 @@
         border-radius: 10px 0px 0px 10px;
         top: 5rem;
         display: flex;
+        z-index: 1;
+    }
+
+    /* CLASSE ATIVADA COM JAVASCRIPT */
+    .conteudo__login.mover {
+        left: 23.8rem;
+        visibility: hidden;
     }
 
     /* FORMULÁRIO */
@@ -53,6 +60,16 @@
         width: 40%;
         height: 500px;
         right: 0;
+        z-index: 1;
+    }
+
+    /* CLASSE ATIVADA COM JAVASCRIPT */
+    .conteudo__LegendaCriarConta.mover {
+        left: 0;
+        visibility: hidden;
+        border-radius: 10px 0px 0px 10px;
+        z-index: 2;
+        opacity: 0;
     }
 
     .conteudo__LegendaCriarConta h2 {
@@ -91,10 +108,10 @@
     }
 
     /* LEGENDA DO LOGIN */
-    .conteudo__LegendaLogin {
+    .conteudo__LegendaLogin { 
         border-radius: 10px 0px 0px 10px;
         background-color: #58af9b;
-        display: none;
+        display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
@@ -102,8 +119,18 @@
         top: 5rem;
         width: 40%;
         height: 500px;
-        left: 0;
+        transition: .5s;
+        left: 35.6rem;
+        visibility: hidden;
     }
+    
+    .conteudo__LegendaLogin.mover {
+        left: 0;
+        z-index: 3;
+        visibility: visible;
+        border-radius: 10px 0px 0px 10px;
+    }
+
 
     .conteudo__LegendaLogin h2 {
         color: white;
@@ -145,9 +172,19 @@
         height: 500px;
         width: 60%;
         border-radius: 0px 10px 10px 0px;
+        transition: .5s;
         top: 5rem;
-        /* left: ; */
-        /* right: 0; */
+        left: 0;
+        overflow: hidden;
+        visibility: hidden;
     }
+    
+    /* CLASSE ATIVADA COM JAVASCRIPT */
+    .conteudo__criarConta.mover {
+        left: 23.8rem;
+        visibility: visible;
+        z-index: 3;
+    }
+
 
 }
