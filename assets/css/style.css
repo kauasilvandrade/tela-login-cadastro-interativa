@@ -1,0 +1,54 @@
+/* CONFIGURAÇÕES GLOBAIS */
+* {}
+
+/* CONTAINER */
+.container {}
+
+/* CONTEÚDO */
+.conteudo {}
+
+/* FORMULÁRIOS */
+.conteudo__formularios {}
+
+/* ÁREA LOGIN */
+.conteudo__login {}
+
+.conteudo__formularios h2 {}
+
+/* REDES SOCIAIS */
+.conteudo__redesSociais {}
+
+.redesSociais__icone {}
+
+.redesSociais__icone i {}
+
+.conteudo__formularios p {}
+
+/* FORMULÁRIO */
+.conteudo__formularioLogin {}
+
+.conteudo__formulario {}
+
+.conteudo__inputBox {}
+
+.conteudo__inputBox label i {}
+
+.conteudo__inputBox input {}
+
+.conteudo__formulario a {}
+
+.conteudo__formulario button {}
+
+/* ÁREA CADASTRO */
+.conteudo__cadastro {}
+
+.conteudo__formularioCadastro {}
+
+/* OVERLAYS */
+.conteudo__overlays {}
+
+.conteudo__overlays .overlay {}
+
+.conteudo__overlays h2 {}
+
+.overlay__botao {}
