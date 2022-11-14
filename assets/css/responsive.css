@@ -16,6 +16,7 @@
     
     /* CONTEÚDO */
     .conteudo {
+        border-radius: 10px;
         box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.459);
         background-color: white;
     }
@@ -33,8 +34,62 @@
         transition: transform 0.8s;
     }
     
+    /* LOGIN */
     .conteudo__login {
         background-color: white;
+    }
+
+}
+
+@media screen and (min-width: 768px) {
+    
+    /* CONTEÚDO */
+    .conteudo {
+        width: 768px;
+    }
+
+    /* FORMULÁRIOS */
+    .conteudo__formularios {
+        width: 100%;
+    }
+
+    /* BOX COM FORMULÁRIO */
+    .conteudo__box {
+        width: 50%;
+    }
+
+    /* CADASTRO */
+    .conteudo__cadastro {
+        border-radius: 0px;
+        background-color: white;
+        z-index: 1;
+        opacity: 1;
+    }
+
+    .conteudo__cadastro h2 {
+        color: #58af9b;
+    }
+    
+    .conteudo__cadastro .redesSociais__icone {
+        color: #95a5a6;
+        border: 1px solid #95a5a6;
+    }
+
+    .conteudo__cadastro .redesSociais__icone:hover {
+        color: white;
+    }
+    
+    .conteudo__cadastro input:focus-visible, input:hover {
+        outline: 2px solid #58af9b;
+    }
+    
+    .conteudo__cadastro p {
+        color: #7f8c8d;
+    }
+    
+    .conteudo__cadastro button {
+        background-color: #58af9b;
+        border: 2px solid white;
     }
 
 }

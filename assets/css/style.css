@@ -19,13 +19,13 @@ body {
 /* CONTEÚDO */
 .conteudo {
     overflow: hidden;
-    border-radius: 10px;
 }
 
 /* FORMULÁRIOS */
 .conteudo__formularios {
     position: relative;
     display: flex;
+    align-items: center;
 }
 
 .conteudo__box {
