@@ -32,14 +32,14 @@ body {
     align-items: center;
     justify-content: center;
     padding: 0 1.5rem;
-    transition: 1s;
     transform: translateX(0);
+    transition: 1s;
 }
 
 .conteudo.mover .conteudo__login {
     transform: translateX(100%);
-    opacity: 0;
     z-index: -1;
+    opacity: 0;
 }
 
 .conteudo__formularios h2 {
@@ -157,6 +157,8 @@ body {
 
 /* ÁREA CADASTRO */
 .conteudo__cadastro {
+    height: 100vh;
+    width: 100%;
     position: absolute;
     display: flex;
     flex-direction: column;
@@ -164,15 +166,15 @@ body {
     justify-content: center;
     padding: 0 1.5rem;
     transform: translateX(-100%);
+    z-index: -1;
+    opacity: 0;
     transition: 1s;
-    width: 100%;
-    height: 100vh;
 }
 
 .conteudo.mover .conteudo__cadastro {
-    opacity: 1;
-    z-index: 1;
     transform: translateX(0);
+    z-index: 1;
+    opacity: 1;
 }
 
 .conteudo__formularioCadastro {}
