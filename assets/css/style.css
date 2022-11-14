@@ -26,8 +26,7 @@ body {
     display: flex;
 }
 
-/* ÁREA LOGIN */
-.conteudo__login {
+.conteudo__box {
     height: 100vh;
     width: 100%;
     display: flex;
@@ -37,6 +36,9 @@ body {
     padding: 0 1.5rem;
     transition: 1s;
 }
+
+/* ÁREA LOGIN */
+.conteudo__login {}
 
 .conteudo.mover .conteudo__login {
     transform: translateX(100%);
@@ -159,18 +161,33 @@ body {
 
 /* ÁREA CADASTRO */
 .conteudo__cadastro {
-    height: 100vh;
-    width: 100%;
+    background-color: #58af9b;
     position: absolute;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    padding: 0 1.5rem;
     transform: translateX(100%);
     z-index: -1;
     opacity: 0;
-    transition: 1s;
+}
+
+.conteudo__cadastro h2 {
+    color: white;
+}
+
+.conteudo__cadastro .redesSociais__icone {
+    color: white;
+    border: 1px solid white;
+}
+
+.conteudo__cadastro input:focus-visible, input:hover {
+    outline: 2px solid #2b544a;
+}
+
+.conteudo__cadastro p {
+    color: white;
+}
+
+.conteudo__cadastro button {
+    background-color: #58af9b;
+    border: 2px solid white;
 }
 
 .conteudo.mover .conteudo__cadastro {
