@@ -27,19 +27,19 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding: 0 1.38rem;
-    gap: 2rem;
+    padding: 0 1.5rem;
+    gap: 1rem;
 }
 
 .conteudo__formularios h2 {
-    font-size: 1.7em;
+    font-size: 1.67em;
     color: #58af9b;
 }
 
 /* REDES SOCIAIS */
 .conteudo__redesSociais {
     display: flex;
-    gap: 1rem;
+    gap: 1.5rem;
 }
 
 .redesSociais__icone {
@@ -51,7 +51,7 @@ body {
     text-align: center;
     font-size: 1.1em;
     padding-top: 0.3rem;
-    transition: 0.5s;
+    transition: all 0.5s;
 }
 
 .redesSociais__icone:hover {
@@ -63,22 +63,77 @@ body {
 
 .redesSociais__icone i {}
 
-.conteudo__formularios p {}
+.conteudo__formularios p {
+    color: #7f8c8d;
+}
 
 /* FORMULÁRIO */
 .conteudo__formularioLogin {}
 
-.conteudo__formulario {}
+.conteudo__formulario {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
 
-.conteudo__inputBox {}
+.conteudo__inputBox {
+    position: relative;
+    margin-bottom: 1.2rem;
+}
 
-.conteudo__inputBox label i {}
+.conteudo__inputBox label {
+    position: absolute;
+    top: 0.6rem;
+    left: 0.5rem;
+}
 
-.conteudo__inputBox input {}
+.conteudo__inputBox label i {
+    font-size: 1.1em;
+    color: #7f8c8d;
+}
 
-.conteudo__formulario a {}
+.conteudo__inputBox input {
+    border: none;
+    background-color: #ecf0f1;
+    width: 100%;
+    padding: 0.8rem 2.2rem;
+    font-size: 0.9em;
+    border-radius: 5px;
+}
 
-.conteudo__formulario button {}
+.conteudo__inputBox input:focus-visible, input:hover {
+    outline: 2px solid #49907f;
+}
+
+.conteudo__formulario a {
+    color: #34495e;
+    text-align: center;
+    text-decoration: none;
+    font-size: 0.9em;
+    margin-bottom: 1.4rem;
+    font-weight: 600;
+}
+.conteudo__formulario a:hover {
+    text-decoration: underline;
+}
+
+.conteudo__formulario button {
+    background-color: #58af9b;
+    border: 2px solid transparent;
+    border-radius: 15px;
+    font-size: 1em;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: white;
+    padding: 0.5rem;
+    transition: background-color .5s, color .5s;
+}
+
+.conteudo__formulario button:hover {
+    background-color: white;
+    color: #58af9b;
+    border: 2px solid #58af9b;
+}
 
 /* ÁREA CADASTRO */
 .conteudo__cadastro {
