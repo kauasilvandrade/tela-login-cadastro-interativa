@@ -1,3 +1,5 @@
+@charset "UTF-8";
+
 /* CONFIGURAÇÕES GLOBAIS */
 * {
     margin: 0;
@@ -12,13 +14,13 @@ body {
 }
 
 /* CONTAINER */
-.container {
-    height: 100vh;
-    overflow: hidden;
-}
+.container {}
 
 /* CONTEÚDO */
-.conteudo {}
+.conteudo {
+    overflow: hidden;
+    border-radius: 10px;
+}
 
 /* FORMULÁRIOS */
 .conteudo__formularios {

@@ -1,0 +1,40 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 490px) {
+    
+    body {
+        background-color: #ecf0f1
+    }
+
+    .container {
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        overflow: hidden;
+    }
+    
+    /* CONTEÚDO */
+    .conteudo {
+        box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.459);
+        background-color: white;
+    }
+
+    /* FORMULÁRIOS */
+    .conteudo__formularios {
+        width: 490px;
+    }
+    
+    /* BOX COM FORMULÁRIO */
+    .conteudo__box {
+        height: auto;
+        padding: 2.5rem;
+        border-radius: 10px;
+        transition: transform 0.8s;
+    }
+    
+    .conteudo__login {
+        background-color: white;
+    }
+
+}
