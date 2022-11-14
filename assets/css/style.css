@@ -1,5 +1,15 @@
 /* CONFIGURAÇÕES GLOBAIS */
-* {}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+/* CORPO */
+body {
+    font-family: 'Open Sans', sans-serif;
+}
 
 /* CONTAINER */
 .container {}
@@ -11,14 +21,45 @@
 .conteudo__formularios {}
 
 /* ÁREA LOGIN */
-.conteudo__login {}
+.conteudo__login {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0 1.38rem;
+    gap: 2rem;
+}
 
-.conteudo__formularios h2 {}
+.conteudo__formularios h2 {
+    font-size: 1.7em;
+    color: #58af9b;
+}
 
 /* REDES SOCIAIS */
-.conteudo__redesSociais {}
+.conteudo__redesSociais {
+    display: flex;
+    gap: 1rem;
+}
 
-.redesSociais__icone {}
+.redesSociais__icone {
+    color: #95a5a6;
+    border-radius: 50%;
+    border: 1px solid #95a5a6;
+    width: 37px;
+    height: 37px;
+    text-align: center;
+    font-size: 1.1em;
+    padding-top: 0.3rem;
+    transition: 0.5s;
+}
+
+.redesSociais__icone:hover {
+    background-color: #58af9b;
+    color: white;
+    transform: scale(1.1) translateY(-4px);
+    box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.363);
+}
 
 .redesSociais__icone i {}
 
@@ -40,7 +81,14 @@
 .conteudo__formulario button {}
 
 /* ÁREA CADASTRO */
-.conteudo__cadastro {}
+.conteudo__cadastro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0 2rem;
+    gap: 2rem;
+}
 
 .conteudo__formularioCadastro {}
 
