@@ -46,6 +46,7 @@
     /* CONTEÚDO */
     .conteudo {
         width: 768px;
+        position: relative;
     }
 
     /* FORMULÁRIOS */
@@ -55,15 +56,35 @@
 
     /* BOX COM FORMULÁRIO */
     .conteudo__box {
-        width: 50%;
+        gap: 1rem;
     }
+
+    /* LOGIN */
+    .conteudo__login {
+        width: 50%;
+        z-index: 2;
+        background-color: white;
+        transition: 1s;
+        transform: translateX(0);
+    }
+
+    .conteudo__formularios p {
+        display: none;
+    }   
 
     /* CADASTRO */
     .conteudo__cadastro {
+        width: 50%;
         border-radius: 0px;
         background-color: white;
+        z-index: -1;
+        transition: 1s;
+        transform: translateX(0);
+    }
+
+    .conteudo.mover .conteudo__cadastro {
+        transform: translateX(100%);
         z-index: 1;
-        opacity: 1;
     }
 
     .conteudo__cadastro h2 {
@@ -84,12 +105,84 @@
     }
     
     .conteudo__cadastro p {
-        color: #7f8c8d;
+        display: none;
     }
     
     .conteudo__cadastro button {
         background-color: #58af9b;
         border: 2px solid white;
+    }
+
+    /* OVERLAYS */
+    .conteudo__overlays {
+        text-align: center;
+        display: block;
+        height: 100%;
+        width: 50%;
+        position: absolute;
+        left: 0;
+        top: 0;
+        z-index: 10;
+        background-color: #58af9b;
+        transform: translateX(100%);
+        transition: 1s;
+    }
+    
+    .conteudo__overlays .overlay {
+        display: flex;
+        flex-direction: column;
+        background-color: #58af9b;
+        position: absolute;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        height: 100%;
+        padding: 2.5rem;
+        color: white;
+    }
+
+    .conteudo.mover .conteudo__overlays {
+        transform: translateX(0);
+    }
+
+    .conteudo__overlays .overlay:nth-child(2) {
+        opacity: 0;
+        z-index: -1;
+    }
+
+    .conteudo.mover .conteudo__overlays .overlay:nth-child(2) {
+        opacity: 1;
+        z-index: 1;
+    }
+
+    .conteudo__overlays h2 {
+        font-size: 1.67em;
+        margin-bottom: 1.2rem;
+    }
+
+    .conteudo__overlays p {
+        text-align: center;
+        margin: 1.4rem 0;
+    }
+
+    .overlay__botao {
+        background-color: #58af9b;
+        border: 2px solid white;
+        width: 100%;
+        border-radius: 15px;
+        font-size: 1em;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        color: white;
+        padding: 0.5rem;
+        transition: background-color .5s, color .5s;
+        cursor: pointer;
+        font-weight: 600;
+    }
+
+    .overlay__botao:hover {
+        background-color: white;
+        color: #58af9b;
     }
 
 }
