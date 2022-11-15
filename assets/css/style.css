@@ -143,7 +143,7 @@ body {
     text-decoration: underline;
 }
 
-.conteudo__formulario button {
+.conteudo__formulario .botaoEnviar {
     background-color: #58af9b;
     border: 2px solid transparent;
     border-radius: 15px;
@@ -157,7 +157,7 @@ body {
     font-weight: 600;
 }
 
-.conteudo__formulario button:hover {
+.conteudo__formulario .botaoEnviar:hover {
     background-color: white;
     color: #58af9b;
     border: 2px solid #58af9b;
@@ -189,7 +189,7 @@ body {
     color: white;
 }
 
-.conteudo__cadastro button {
+.conteudo__cadastro .botaoEnviar {
     background-color: #58af9b;
     border: 2px solid white;
 }

@@ -108,7 +108,7 @@
         display: none;
     }
     
-    .conteudo__cadastro button {
+    .conteudo__cadastro .botaoEnviar {
         background-color: #58af9b;
         border: 2px solid white;
     }
