@@ -139,6 +139,7 @@
         height: 100%;
         padding: 2.5rem;
         color: white;
+        transition: 1s;
     }
 
     .conteudo.mover .conteudo__overlays {

@@ -1,13 +1,13 @@
 const conteudoContainer = document.querySelector('.conteudo');
 
-function Mover() {
+function mover() {
 
     conteudoContainer.classList.toggle('mover')
 
 }
 
-document.querySelector('.openLoginMobile').addEventListener('click', Mover);
-document.querySelector('.openRegisterMobile').addEventListener('click', Mover);
+document.querySelector('.openLoginMobile').addEventListener('click', mover);
+document.querySelector('.openRegisterMobile').addEventListener('click', mover);
 
-document.getElementById('openRegister').addEventListener('click', Mover);
-document.getElementById('openLogin').addEventListener('click', Mover);
+document.getElementById('openRegister').addEventListener('click', mover);
+document.getElementById('openLogin').addEventListener('click', mover);
